@@ -83,7 +83,7 @@ adk run storefront_agent
 > [Automattic WordPress MCP](https://www.npmjs.com/package/@automattic/mcp-wordpress-remote),
 > then adjust `storefront_agent/agent.py` and `.env`.
 
-## Deploy to Cloud Run (hosted URL for submission)
+## Deploy to Cloud Run
 
 Deploys the agent (interactive `adk web` UI). Full step-by-step, including the
 env-vars file and security/teardown notes:
