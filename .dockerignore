@@ -1,0 +1,17 @@
+# Keep secrets and local junk out of the build context / image.
+.env
+*.log
+wp-mcp-remote.log
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.wp-env.json
+dist/
+build/
+*.egg-info/
+docs/
+scripts/
+deploy/
