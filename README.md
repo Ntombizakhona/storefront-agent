@@ -94,7 +94,7 @@ Quick version:
 ```bash
 gcloud run deploy storefront-agent \
   --source . \
-  --region us-central1 \
+  --region africa-south1 \
   --allow-unauthenticated \
   --env-vars-file env.yaml \
   --memory 2Gi --cpu 2 --timeout 3600 --max-instances 1

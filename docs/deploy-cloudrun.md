@@ -50,7 +50,7 @@ echo "env.yaml" >> .gitignore
 ```bash
 gcloud run deploy storefront-agent \
   --source . \
-  --region us-central1 \
+  --region africa-south1 \
   --allow-unauthenticated \
   --env-vars-file env.yaml \
   --memory 2Gi \
@@ -85,7 +85,7 @@ WordPress MCP servers - give it a minute. Subsequent calls are fast.
 ## Tear down after judging
 
 ```bash
-gcloud run services delete storefront-agent --region us-central1
+gcloud run services delete storefront-agent --region africa-south1
 ```
 
 ## Troubleshooting
@@ -97,5 +97,5 @@ gcloud run services delete storefront-agent --region us-central1
 - Model 429: Pro is free-tier limited - keep `GEMINI_MODEL=gemini-flash-latest`
   or enable billing/Vertex.
 - MCP errors in logs: `gcloud run services logs read storefront-agent
-  --region us-central1` - same fixes as local (npx, WordPress MCP plugin,
+  --region africa-south1` - same fixes as local (npx, WordPress MCP plugin,
   `OAUTH_ENABLED=false` which is already set in code).
