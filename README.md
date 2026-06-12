@@ -106,12 +106,6 @@ The root `Dockerfile` bundles Node so the MCP servers run inside the service.
 > and it holds your tokens + store write access. Treat it as disposable, use a
 > throwaway store, and delete the service after judging.
 
-## Submission
-
-Draft Devpost write-up (inspiration, what it does, how it's built, partner MCP
-integration, challenges, links + checklist): [docs/SUBMISSION.md](docs/SUBMISSION.md).
-Demo recording script: [docs/demo-script.md](docs/demo-script.md).
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
